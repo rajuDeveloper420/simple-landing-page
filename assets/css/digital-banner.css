@@ -1,0 +1,16 @@
+
+
+.digital-merketing-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* background: url('../images/home-bg-img-second.png') no-repeat; */
+	background-image: none;
+	background-size: cover;
+	background-position: center;
+
+}
+.digital-merketing-section .content h3 span{
+	font-size: 4.8rem;
+}
+

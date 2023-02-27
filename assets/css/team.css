@@ -1,0 +1,86 @@
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team .member {
+  position: relative;
+  box-shadow: 0rem .2rem 1.5rem rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  border-radius: .5rem;
+  background: #fff;
+  transition: 0.5s;
+}
+.team .member .pic {
+  overflow: hidden;
+  width: 18rem;
+  border-radius: 50%;
+}
+.team .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+.team .member:hover {
+  transform: translateY(-10px);
+}
+.team .member .member-info {
+  padding-left: 3rem;
+}
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  color: #37517e;
+}
+.team .member span {
+  display: block;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  position: relative;
+  font-weight: 500;
+}
+.team .member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 5rem;
+  height: .1rem;
+  background: var(--gradient);
+  bottom: 0;
+  left: 0;
+}
+.team .member p {
+  margin: 1rem 0 0 0;
+  font-size: 1.4rem;
+}
+.team .member .social {
+  margin-top: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  background: #F9F9F9;
+}
+.team .member .social a i {
+  color: #4F668E;
+  font-size: 1.6rem;
+  margin: 0 .2rem;
+}
+.team .member .social a:hover {
+  background: var(--gradient);
+}
+.team .member .social a:hover i {
+  color: #fff;
+}
+.team .member .social a + a {
+  margin-left: .8rem;
+}
+
+
+

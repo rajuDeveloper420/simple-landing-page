@@ -1,0 +1,38 @@
+
+/*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+  background: #F9F9F9;
+  background-size: cover;
+  padding: 6rem 0;
+}
+.cta h3 {
+  color: #B13B95;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.cta p {
+  color: #000;
+  font-size: 1.7rem;
+}
+.cta .cta-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  display: inline-block;
+  padding: 1rem 3.5rem;
+  border-radius: 2.5rem;
+  transition: 0.5s;
+  margin-top: 1rem;
+  /* border: .2rem solid #ffc107; */
+  border: .2rem solid var(--gradient);
+  background: var(--gradient);
+  color: #fff;
+}
+.cta .cta-btn:hover {
+  /* background: #ffc107; */
+  background: var(--gradient);
+  transform: scale(1.1);
+}

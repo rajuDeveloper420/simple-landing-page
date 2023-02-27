@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CoderFast24</title>
+	<link rel="icon" href="assets/images/coderfast24.png" type="images/gif">
+	<!-- font awsome cdn link here  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+	<!-- custom css file link here  -->
+	<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/grid.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!-- header section start -->
+	<header>
+		<a href="index.html" class="logo"><span>coderfast</span>24</a>
+		<input type="checkbox" id="menu-bar">
+		<label for="menu-bar" class="fas fa-bars"></label>
+		<nav class="navbar">
+			<a href="index.html">Home</a>
+			<a href="service.html">Services</a>
+			<a href="#">About us</a>
+			<a href="#">Review</a>
+			<a href="#">Pricing</a>
+			<a href="#">Hire Designers</a>
+			<a href="contact.html">Contact us</a>
+			<a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign in</a>
+		</nav>
+	</header>
+	<!-- header section ends -->
+
+	<!-- Home Section Start -->
+	<section class="home" id="home" data-aos="fade-down" data-aos-delay="200">
+		<div class="content">
+			<h3>best web design & <span>developer</span></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Provident similique aperiam dolorem aut in nulla suscipit debitis beatae laboriosam nesciunt.</p>
+			<a href="#" class="btn-customize">hire us</a>
+		</div>
+		<div class="image">
+			<img src="assets/images/web development.png" alt="">
+		</div>
+	</section>
+	<!-- Home Section ends -->
+
+
+	<!-- Home Section one Start -->
+	<section class="home digital-merketing-section" id="home" data-aos="fade-up" data-aos-delay="200">
+		<div class="image" data-aos="fade-left" data-aos-delay="100">
+			<img src="assets/images/digital-marketing.png" alt="">
+		</div>
+		<div class="content" data-aos="fade-right" data-aos-delay="100">
+			<h3><span>best digital marketer</span></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Provident similique aperiam dolorem aut in nulla suscipit debitis beatae laboriosam nesciunt.</p>
+			<a href="#" class="btn-customize">hire us</a>
+		</div>
+	</section>
+	<!-- Home Section one ends -->
+
+
+	<!-- ======= Counts Section ======= -->
+    <div id="counts" class="counts" data-aos="zoom-in" data-aos-delay="100">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projects</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-headset" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div><!-- End Counts Section -->
+
+
+	<!-- Filter Tab Section Start -->
+	<section class="filter-section" data-aos="fade-up">
+		<div class="row filter-mobile-responsive">
+			<div class="col">
+				<div id="myBtnContainer">
+				 	<button class="filter-btn active" onclick="filterSelection('all')"><b>all</b></button>
+				  	<button class="filter-btn" onclick="filterSelection('nature')">Web</button>
+				  	<button class="filter-btn" onclick="filterSelection('people')">Wp</button>
+				  	<!-- <button class="filter-btn" onclick="filterSelection('people')">Wp Plugin</button> -->
+				  	<button class="filter-btn" onclick="filterSelection('people')">Landing Page</button>
+				  	<button class="filter-btn" onclick="filterSelection('people')">Graphics</button>
+				  	<button class="filter-btn" onclick="filterSelection('people')">Product Design</button>
+				  	<button class="filter-btn" onclick="filterSelection('people')">PSD</button>
+				  	<button class="filter-btn" onclick="filterSelection('people')">Branding</button>
+				  	<button class="filter-btn" onclick="filterSelection('cars')">Sales Funnel Page</button>
+				  	<!-- <button class="filter-btn" onclick="filterSelection('people')">Digital Marketing Services</button> -->
+
+				</div>
+				
+			</div>
+		</div>
+		<div class="row" data-aos="fade-up" data-aos-delay="200">
+
+			<div class="col col-md-4 people filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/people1.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href="assets/images/people1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+						
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 nature filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/mountains.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href="assets/images/people1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 cars filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/cars3.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href="assets/images/people1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 nature filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/lights.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href="assets/images/people1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 people filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/people3.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href="assets/images/people1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 nature filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/mountains.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 cars filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/cars2.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 people filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/people1.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 people filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/people3.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 nature filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/mountains.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 cars filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/cars2.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 people filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/people1.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 people filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/people3.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 nature filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/mountains.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 cars filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/cars2.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col col-md-4 people filter-column">
+				<div class="filter-content">
+					<div class="filter-content-img">
+						<img src="assets/images/people1.jpg" alt="Mountains" style="width:100%">
+						<div class="filter-content-middle">
+							<div class="filter-middle-content-left">
+								<a href="">kamrul islam raju</a>
+							</div>
+							<div class="filter-middle-content-right">
+								<a href=""><i class="fa-solid fa-folder-plus"></i></a>
+								<a href=""><i class="fa-solid fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="filter-content-box">
+						<div class="filter-content-left">
+							<a href="">kamrul islam raju</a>
+						</div>
+						<div class="filter-content-right">
+							<a href="" class="filter-conten-wishlist"><i class="fa-solid fa-heart"></i>32K</a>
+							<a href="" class="filter-conten-eye"><i class="fa-solid fa-eye"></i>62K</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- Filter Tab Section end -->
+
+
+	 <!-- ======= Cta Section ======= -->
+    <div id="cta" class="cta" data-aos="zoom-in" data-aos-delay="200">
+      <div class="container">
+
+        <div class="text-center">
+          <h3>Call To Action</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="cta-btn" href="#">Call To Action</a>
+        </div>
+
+      </div>
+    </div><!-- End Cta Section -->
+
+
+	<!-- features section starts -->
+	<section class="features" id="features" data-aos="fade-up">
+		<h1 class="heading">our service</h1>
+		<div class="box-container">
+			<div class="box" data-aos="fade-left" data-aos-delay="200">
+				<img src="assets/images/f-icon1.png" alt="">
+				<h3>web design</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quibusdam. Ipsam sit veniam quaerat cupiditate officiis distinctio nostrum quasi veritatis.</p>
+				<a href="#" class="btn-customize">read more</a>
+			</div>
+			<div class="box" data-aos="fade-up" data-aos-delay="200">
+				<img src="assets/images/f-icon2.png" alt="">
+				<h3>web development</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quibusdam. Ipsam sit veniam quaerat cupiditate officiis distinctio nostrum quasi veritatis.</p>
+				<a href="#" class="btn-customize">read more</a>
+			</div>
+			<div class="box" data-aos="fade-right" data-aos-delay="200">
+				<img src="assets/images/f-icon3.png" alt="">
+				<h3>wp theme customize</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quibusdam. Ipsam sit veniam quaerat cupiditate officiis distinctio nostrum quasi veritatis.</p>
+				<a href="#" class="btn-customize">read more</a>
+			</div>
+			<div class="box">
+				<img src="assets/images/f-icon3.png" alt="">
+				<h3>wp plugin customize</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quibusdam. Ipsam sit veniam quaerat cupiditate officiis distinctio nostrum quasi veritatis.</p>
+				<a href="#" class="btn-customize">read more</a>
+			</div>
+			<div class="box">
+				<img src="assets/images/f-icon3.png" alt="">
+				<h3>digital marketing</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quibusdam. Ipsam sit veniam quaerat cupiditate officiis distinctio nostrum quasi veritatis.</p>
+				<a href="#" class="btn-customize">read more</a>
+			</div>
+			<div class="box">
+				<img src="assets/images/f-icon3.png" alt="">
+				<h3>graphics design</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quibusdam. Ipsam sit veniam quaerat cupiditate officiis distinctio nostrum quasi veritatis.</p>
+				<a href="#" class="btn-customize">read more</a>
+			</div>
+		</div>
+		<div class="row" style="text-align:right;margin-bottom:10px;margin-right:20px">
+			<a href="#" class="show-all">Show all <i class="fa-solid fa-arrow-right"></i></a>
+		</div>
+		
+		
+	</section>									
+	<!-- features section ends -->
+
+	<!-- sbout section starts -->
+	<section class="about" id="about" data-aos="fade-up">
+		<h1 class="heading">about us</h1>
+		<div class="column">
+			<div class="image">
+				<img src="assets/images/about.png" alt="">
+			</div>
+			<div class="content">
+				<h3>Easy And Perfect Solution For Your App</h3>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla repudiandae beatae minus, aspernatur vitae dicta sapiente sit quae incidunt fugiat!</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Cupiditate necessitatibus et corporis totam repudiandae consectetur, consequatur dolorum eaque maiores illum!</p>
+				<div class="buttons">
+					<a href="#" class="btn-customize"><!-- <i class="fab fa-apple"></i> --> read more</a>
+					<!-- <a href="#" class="btn"><i class="fab fa-google-play"></i> google-play</a> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- sbout section ends -->
+
+	
+<!-- ======= Clients Section ======= -->
+    <div id="clients" class="clients" data-aos="fade-up">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Clients</h2>
+          <p>Temporibus omnis officia</p>
+        </div>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/images/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </div><!-- End Clients Section -->
+
+
+    <div class="footer-newsletter" data-aos="fade-right" data-aos-delay="200">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	<!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>coderfast24</h3>
+              <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+           <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+           <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>coderfast24</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/multi-responsive-bootstrap-template/ -->
+        Designed by <a href="#">coderfast24</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+
+
+ <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  	<div id="preloader"></div>
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="assets/vendor/purecounter/purecounter.js"></script>
+  	<script src="assets/vendor/aos/aos.js"></script>
+  	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  	<script src="assets/vendor/php-email-form/validate.js"></script>
+  	<!-- <script src="assets/js/login-register.js"></script> -->
+  	<script src="assets/js/main.js"></script>
+
+	<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filter-column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("filter-btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+</body>
+</html>
